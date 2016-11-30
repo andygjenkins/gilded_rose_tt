@@ -89,4 +89,12 @@ describe GildedRose do
       expect(items[0].quality).to eq 0
     end
   end
+
+  context "item is Conjured" do
+    it "reduces quality at two times the normal rate" do
+      items = [Item.new("Conjured",1,2)]
+      GildedRose.new(items).update_quality()
+      expect(items[0].quality).to eq 0
+    end
+  end
 end
