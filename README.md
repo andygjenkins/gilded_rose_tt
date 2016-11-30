@@ -1,5 +1,12 @@
 # Gilded rose tech test
 
+### Running the refactor:
+```
+$ git clone https://github.com/andygjenkins/gilded_rose_tt.git
+$ bundle
+$ rspec
+```
+
 This is a well known kata developed by [Terry Hughes](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/). This is commonly used as a tech test to assess a candidate's ability to read, refactor and extend legacy code.
 
 Here is the text of the kata:
